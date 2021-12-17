@@ -1,0 +1,50 @@
+.parent{
+    display:flex;
+    border: 2px solid blue;
+    text-align: center;
+   
+
+}
+.parent>.card{
+    padding:1%;
+    margin: 1%;
+    border:2px solid red;
+    width: 30%;
+    text-align: center;
+
+
+}
+s{
+    color:red;
+}
+span{
+    color:green;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    border-radius: 1%;
+    border: 2px solid pink;
+}
+@media only screen and (min-width:320px) and (max-width:480px){}
+
+.parent{
+    display:flex;
+    flex-direction: column;
+}
+.parent>.card{
+    width: 30%;
+    background-color: teal;
+}
+img{
+    width:80%
+}
+}
+@media only screen and(min-width:481px) and (max-width:768){
+    .card{
+        display:flex;
+        flex-direction: column;
+    }
+}
